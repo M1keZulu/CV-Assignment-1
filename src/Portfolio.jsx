@@ -69,7 +69,6 @@ function Portfolio() {
           {/* Add more education details as needed */}
         </ul>
       </section>
-
       <footer>
         <p>2023 Muhammad Zain Ul Abiddin. All rights reserved.</p>
       </footer>
