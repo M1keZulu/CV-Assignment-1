@@ -1,0 +1,21 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+pr: 
+  branches:
+   include:
+     - main
+
+pool:
+  name: default 
+
+steps:
+- script: echo BuildingVite
+  displayName: 'Display Build Vite Message'
+
+- script: |
+    echo Add other tasks to build, test, and deploy your project.
+    echo See https://aka.ms/yaml
+  displayName: 'Build Vite'
