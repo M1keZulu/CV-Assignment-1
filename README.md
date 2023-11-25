@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/k201731/CV-Assignment-1/_apis/build/status%2FM1keZulu.CV-Assignment-1?branchName=main)](https://dev.azure.com/k201731/CV-Assignment-1/_build/latest?definitionId=2&branchName=main)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
