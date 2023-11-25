@@ -64,6 +64,7 @@ function Portfolio() {
           <li>Annual Certificate for DevOps - FAST NUCES</li>
           <li>Coders Cup FAST NUCES</li>
           <li>DevOps Mastering Workshop - 10Pearls Cloud Con</li>
+          
           {/* Add more education details as needed */}
         </ul>
       </section>
