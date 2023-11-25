@@ -4,17 +4,17 @@ import "./App.css";
 function Portfolio() {
   const [filter, setFilter] = useState("");
   const projects = [
-    { name: "Project 1", tech: "C#" },
-    { name: "Project 2", tech: "Java" },
-    { name: "Project 3", tech: "Node.js" },
+    { name: "OOP Chess using SFML", tech: "C++" },
+    { name: "Maching Learning", tech: "Python" },
+    { name: "Computer Networks", tech: "Node.js" },
     // Add more projects as needed
   ];
 
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Your Name</h1>
-        <p>Web Developer | Software Engineer</p>
+        <h1>Muhammad Zain Ul Abiddin</h1>
+        <p>Web Developer | Software Engineer | DevOps Enthusiast</p>
       </header>
 
       <nav>
@@ -52,8 +52,9 @@ function Portfolio() {
       <section id="education">
         <h2>Education</h2>
         <ul>
-          <li>9th Grade - School Name</li>
-          <li>10th Grade - School Name</li>
+          <li>O-Levels - Bahria Foundation College</li>
+          <li>A-Levels - Credo College</li>
+          <li>BS Computer Science - FAST NUCES</li>
           {/* Add more education details as needed */}
         </ul>
       </section>
@@ -64,13 +65,12 @@ function Portfolio() {
           <li>Annual Certificate for DevOps - FAST NUCES</li>
           <li>Coders Cup FAST NUCES</li>
           <li>DevOps Mastering Workshop - 10Pearls Cloud Con</li>
-          
+
           {/* Add more education details as needed */}
         </ul>
       </section>
-
       <footer>
-        <p>2023 Your Name. All rights reserved.</p>
+        <p>2023 Muhammad Zain Ul Abiddin. All rights reserved.</p>
       </footer>
     </div>
   );
