@@ -35,6 +35,7 @@ function Portfolio() {
       </section>
 
       <section id="projects">
+        
         <h2>Projects</h2>
         <ul>
           {projects
@@ -50,6 +51,7 @@ function Portfolio() {
       </section>
 
       <section id="education">
+
         <h2>Education</h2>
         <ul>
           <li>O-Levels - Bahria Foundation College</li>
